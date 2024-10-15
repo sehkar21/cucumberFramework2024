@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
     glue = "stepDefinitions", // Package containing step definitions
     		// plugin = {"pretty", "html:target/cucumber-reports.html"}, // Generates HTML reports
     		   // monochrome = false,
-    		   dryRun=false// Output is readable
+    		   dryRun=false,
+    		   tags="@smoke"// Output is readable
    
 )
 

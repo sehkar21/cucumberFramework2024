@@ -1,5 +1,5 @@
 
-@tag
+@smoke
 Feature: Search and Place the order for products
  
 

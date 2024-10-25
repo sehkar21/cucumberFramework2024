@@ -1,9 +1,9 @@
 
-@smoke
+@regression
 Feature: Search and Place the order for products
  
 
-  @tag1
+ @regression
   Scenario: Search Experience for product serach in home and offers page
     Given user is on Greencart Landing page
     When user serached with shortname "Tom" and extracted actual name of product
